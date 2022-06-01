@@ -106,3 +106,8 @@ configure your server.
 Answer the various prompts to finish configuring the NFS server and
 it's exports.
 
+Finally, make the NFS share writable by any user. I know, this is
+terrible.
+
+    sudo chmod a+rwx /exports
+
