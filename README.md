@@ -78,7 +78,7 @@ lab. Make sure that __Configure a NFS Server__ is selected. Set the
 __NFS V4 Domain Name__ to match your local network domain as shown
 below.
 
-[NFS Helper](images/nfs-helper-main.png)
+![NFS Helper](images/nfs-helper-main.png)
 
 Scroll down and set the __Server Directory Export__ to match the
 mount point you created for NFS exports during installation. Make
@@ -86,12 +86,12 @@ sure to also select __Yes__ for the __Configure Advanced NFS Server
 Options__ and also select __Yes__ for __rw_server__ to make the NFS
 shares both read/write. See below.
 
-[NFS Server Options](images/nfs-server-options.png)
+![NFS Server Options](images/nfs-server-options.png)
 
 Click the __Generate__ button and then download the script as shown
 below.
 
-[Download NFS Script](images/download-nfs-server-script.png)
+![Download NFS Script](images/download-nfs-server-script.png)
 
 Copy the downloaded script to the RHEL instance if it was downloaded
 to another system.
