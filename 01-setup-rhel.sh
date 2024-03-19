@@ -35,7 +35,7 @@ firewall-cmd --reload
 ## configure hostname
 ##
 
-hostnamectl set-host-name $SERVERNAME
+hostnamectl set-hostname $SERVERNAME
 
 ##
 ## configure insights
